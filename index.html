@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      slimebookログイン
+    </title>
+  </head>
+  <body>
+    <h1>
+      slimebook
+    </h1>
+    <h3>
+      ようこそ、slimebookへ！<br>slimebookとは、slime教が運営するsnsです。slimebookで、自分を発信しましょう！
+    </h3>
+    <button>ログインボタン</button>
+    <script>
+      let button = document.querySelector('button');
+
+button.onclick = function() {
+  let rogin = prompt('ログインid');
+  window.open('https://uenofuuma.github.io/slimebook-'+rogin+'/');
+}
+    </script>
+    <style>
+      body{background:yellow;text-align:center;font-family:serif;}
+      h1{font-size:50px;color:red;}
+      button{font-size:30px;background:lightyellow;}
+    </style>
+  </body>
+</html>
