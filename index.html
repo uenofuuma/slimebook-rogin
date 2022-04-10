@@ -1,30 +1,32 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <title>
-      slimebookログイン
+      slimebook ログインページ
     </title>
+    <link rel="icon" type="image/png" href="https://www.htmlcommentbox.com/storage/lg_15876460_screenshot-2022-04-10-150706.png">
   </head>
   <body>
     <h1>
-      slimebook
-    </h1>
-    <h3>
-      ようこそ、slimebookへ！<br>slimebookとは、slime教が運営するsnsです。slimebookで、自分を発信しましょう！
-    </h3>
-    <button>ログインボタン</button>
-    <script>
-      let button = document.querySelector('button');
-
-button.onclick = function() {
-  let rogin = prompt('ログインid');
-  window.open('https://uenofuuma.github.io/slimebook-'+rogin+'/');
-}
-    </script>
+      slimebook ログインページ
+    </h1> 
+    <div style="text-align:center;background: #6495ed; border-left: #6495ed solid 10px; border: #6495ed solid 1px; font-size: 100%; padding: 20px;"> 
+      <form>
+        <input type="text"placeholder="ユーザーネーム"><p>
+        <input type="password"placeholder="パスワード"><p><input type="submit"value='ログイン'><p>
+          <h3>
+            初めての方はこちら
+          </h3>
+        <input type="button"value='ユーザー作成'><p>
+      </form>
+    </div>
     <style>
-      body{background:yellow;text-align:center;font-family:serif;}
-      h1{font-size:50px;color:red;}
-      button{font-size:30px;background:lightyellow;}
+      
+      body{background:gainsboro;text-align:center;
+          padding:150px 0;}
+      input{font-size:25px;}
+      h1{font-size:80px;color:red;font-family:serif;}
     </style>
   </body>
 </html>
